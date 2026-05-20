@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Свадьба Вадима и Дарьи — 09.08.2026, Бишкек, Кыргызстан. Jannat Residency." />
+  <meta property="og:title" content="Вадим и Дарья — 09.08.2026" />
+  <meta property="og:description" content="Приглашаем вас разделить этот день с нами. Бишкек, Jannat Residency." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-cover.jpg" />
+  <meta name="theme-color" content="#1b2e22" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <title>Вадим &amp; Дарья — 09.08.2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0&family=Geologica:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Основная навигация">
+    <div class="nav__logo">В&nbsp;&amp;&nbsp;Д</div>
+    <button class="nav__burger" id="navBurger" aria-label="Открыть меню" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span>
+    </button>
+    <ul class="nav__menu" id="navMenu" role="list">
+      <li><a href="#event" class="nav__link">Событие</a></li>
+      <li><a href="#schedule" class="nav__link">Тайминг</a></li>
+      <li><a href="#travel" class="nav__link">Гостям</a></li>
+      <li><a href="#explore" class="nav__link">Кыргызстан</a></li>
+      <li><a href="#contacts" class="nav__link">Контакты</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-label="Главный экран">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__bg-shape hero__bg-shape--1"></div>
+        <div class="hero__bg-shape hero__bg-shape--2"></div>
+        <div class="hero__bg-shape hero__bg-shape--3"></div>
+        <div class="hero__noise" aria-hidden="true"></div>
+      </div>
+      <div class="hero__content">
+        <p class="hero__eyebrow fade-in" data-delay="0">09 августа 2026</p>
+        <h1 class="hero__names fade-in" data-delay="1">
+          <span class="hero__name">Вадим</span>
+          <span class="hero__amp">&</span>
+          <span class="hero__name">Дарья</span>
+        </h1>
+        <p class="hero__tagline fade-in" data-delay="2">Бишкек&nbsp;· Кыргызстан&nbsp;· Jannat Regency</p>
+        <p class="hero__invite fade-in" data-delay="3">Мы хотим, чтобы этот день вы провели вместе с нами.<br class="br-desktop"/>Приглашаем вас разделить один из самых важных моментов нашей жизни.</p>
+        <a href="#countdown" class="hero__cta fade-in" data-delay="4" aria-label="Перейти к обратному отсчёту">
+          <span>До свадьбы осталось</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 3v10M3 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- COUNTDOWN -->
+    <section class="countdown" id="countdown" aria-label="Обратный отсчёт">
+      <div class="container">
+        <p class="section-label fade-in">Осталось</p>
+        <div class="countdown__grid fade-in" id="countdownGrid" role="timer" aria-live="polite" aria-label="Обратный отсчёт до свадьбы">
+          <div class="countdown__unit">
+            <span class="countdown__value" id="cdDays">—</span>
+            <span class="countdown__label">дней</span>
+          </div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__unit">
+            <span class="countdown__value" id="cdHours">—</span>
+            <span class="countdown__label">часов</span>
+          </div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__unit">
+            <span class="countdown__value" id="cdMinutes">—</span>
+            <span class="countdown__label">минут</span>
+          </div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__unit">
+            <span class="countdown__value" id="cdSeconds">—</span>
+            <span class="countdown__label">секунд</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENT INFO -->
+    <section class="event" id="event" aria-label="Информация о событии">
+      <div class="container">
+        <p class="section-label fade-in">Событие</p>
+        <h2 class="section-title fade-in">Когда и где</h2>
+        <div class="event__grid">
+          <div class="event__card fade-in">
+            <div class="event__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <h3 class="event__card-title">Дата</h3>
+            <p class="event__card-value">9 августа 2026</p>
+            <p class="event__card-sub">Воскресенье</p>
+          </div>
+          <div class="event__card fade-in">
+            <div class="event__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3 class="event__card-title">Начало</h3>
+            <p class="event__card-value">17:00</p>
+            <p class="event__card-sub">Просим прибыть к 16:45</p>
+          </div>
+          <div class="event__card fade-in">
+            <div class="event__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3 class="event__card-title">Место</h3>
+            <p class="event__card-value">Jannat Residency</p>
+            <p class="event__card-sub">Бишкек, Кыргызстан</p>
+          </div>
+        </div>
+
+        <div class="event__map-block fade-in">
+          <div class="event__map-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+            Jannat Residency, Бишкек
+          </div>
+          <div class="event__map-placeholder" role="img" aria-label="Карта расположения Jannat Residency в Бишкеке">
+            <div class="event__map-inner">
+              <div class="event__map-pin" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              </div>
+              <p class="event__map-address">Скриншот или ссылку на карту вставьте сюда</p>
+              <a href="https://maps.google.com/?q=Jannat+Residency+Bishkek" target="_blank" rel="noopener noreferrer" class="event__map-link">Открыть в Google Maps</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section class="schedule" id="schedule" aria-label="Тайминг дня">
+      <div class="container">
+        <p class="section-label fade-in">День свадьбы</p>
+        <h2 class="section-title fade-in">Как пройдёт вечер</h2>
+        <div class="schedule__timeline">
+          <div class="schedule__item fade-in">
+            <div class="schedule__time">16:45</div>
+            <div class="schedule__body">
+              <h3 class="schedule__title">Сбор гостей</h3>
+              <p class="schedule__desc">Добро пожаловать. Встречаем вас у входа, проводим до зала.</p>
+            </div>
+          </div>
+          <div class="schedule__item fade-in">
+            <div class="schedule__time">17:00</div>
+            <div class="schedule__body">
+              <h3 class="schedule__title">Welcome</h3>
+              <p class="schedule__desc">Лёгкие закуски, напитки, живая музыка. Время познакомиться и отдохнуть перед церемонией.</p>
+            </div>
+          </div>
+          <div class="schedule__item fade-in">
+            <div class="schedule__time">18:00</div>
+            <div class="schedule__body">
+              <h3 class="schedule__title">Церемония</h3>
+              <p class="schedule__desc">Торжественная роспись и клятвы. Самый важный момент этого дня.</p>
+            </div>
+          </div>
+          <div class="schedule__item fade-in">
+            <div class="schedule__time">19:00</div>
+            <div class="schedule__body">
+              <h3 class="schedule__title">Праздничный ужин</h3>
+              <p class="schedule__desc">Торжественный стол, тосты, тёплые слова и хорошая компания.</p>
+            </div>
+          </div>
+          <div class="schedule__item fade-in">
+            <div class="schedule__time">21:00</div>
+            <div class="schedule__body">
+              <h3 class="schedule__title">Музыка и танцы</h3>
+              <p class="schedule__desc">Живая музыка, танцпол, атмосфера праздника. Двигаемся и веселимся до финала.</p>
+            </div>
+          </div>
+          <div class="schedule__item fade-in">
+            <div class="schedule__time">23:00</div>
+            <div class="schedule__body">
+              <h3 class="schedule__title">Завершение вечера</h3>
+              <p class="schedule__desc">Последний танец, прощание. Спасибо, что были рядом в этот день.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAVEL INFO -->
+    <section class="travel" id="travel" aria-label="Информация для гостей из России">
+      <div class="container">
+        <p class="section-label fade-in">Для гостей из России</p>
+        <h2 class="section-title fade-in">Всё, что нужно знать</h2>
+        <div class="travel__grid">
+
+          <div class="travel__card fade-in">
+            <div class="travel__card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+            </div>
+            <h3 class="travel__card-title">Документы</h3>
+            <p class="travel__card-text">Гражданам России загранпаспорт не нужен — въезд по внутреннему паспорту. Безвизовый режим до 30 дней.</p>
+          </div>
+
+          <div class="travel__card fade-in">
+            <div class="travel__card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <h3 class="travel__card-title">Валюта</h3>
+            <p class="travel__card-text">Местная валюта — сом (KGS). Обменяйте рубли по прилёту или в городе. Курс стабильный, банкоматы работают.</p>
+          </div>
+
+          <div class="travel__card fade-in">
+            <div class="travel__card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+            </div>
+            <h3 class="travel__card-title">Оплата</h3>
+            <p class="travel__card-text">Российские карты Мир принимаются в большинстве заведений. Visa и Mastercard работают частично. Наличные всегда надёжнее.</p>
+          </div>
+
+          <div class="travel__card fade-in">
+            <div class="travel__card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <h3 class="travel__card-title">SIM-карта</h3>
+            <p class="travel__card-text">Местные SIM-карты доступны в аэропорту и магазинах. Рекомендуем Beeline KG или MegaCom — хорошее покрытие и дешёвый интернет.</p>
+          </div>
+
+          <div class="travel__card fade-in">
+            <div class="travel__card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3 class="travel__card-title">Такси</h3>
+            <p class="travel__card-text">Приложения Yandex Go и Maxim работают в Бишкеке. Цены очень доступные. Договориться с водителем напрямую тоже можно.</p>
+          </div>
+
+          <div class="travel__card fade-in">
+            <div class="travel__card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 1 0 20"/><path d="M12 2a10 10 0 0 0 0 20"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2c-2.76 4-4 8-4 10s1.24 6 4 10"/><path d="M12 2c2.76 4 4 8 4 10s-1.24 6-4 10"/></svg>
+            </div>
+            <h3 class="travel__card-title">Погода в августе</h3>
+            <p class="travel__card-text">Жарко и солнечно: +28–34°C днём. Вечера тёплые. Горный воздух, ночи прохладнее. Солнцезащитный крем обязателен.</p>
+          </div>
+
+          <div class="travel__card fade-in">
+            <div class="travel__card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <h3 class="travel__card-title">Что надеть</h3>
+            <p class="travel__card-text">На свадьбу — нарядное. Для прогулок по городу — лёгкая одежда. Вечером у воды может быть прохладно, возьмите лёгкую накидку.</p>
+          </div>
+
+          <div class="travel__card fade-in">
+            <div class="travel__card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="travel__card-title">Где остановиться</h3>
+            <p class="travel__card-text">Рекомендуем районы Центр или южную часть города. Отели Holiday Inn, Orion Hotel, Hyatt Regency — хороший выбор. Апартаменты через Booking.com тоже доступны.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPLORE -->
+    <section class="explore" id="explore" aria-label="Что посмотреть в Кыргызстане">
+      <div class="container">
+        <p class="section-label fade-in">Кыргызстан</p>
+        <h2 class="section-title fade-in">Пока вы здесь</h2>
+        <p class="explore__intro fade-in">Если у вас есть пара дней — не упустите возможность открыть для себя одну из самых красивых стран Центральной Азии.</p>
+        <div class="explore__grid">
+
+          <div class="explore__item fade-in">
+            <div class="explore__item-head">
+              <span class="explore__num" aria-hidden="true">01</span>
+              <h3 class="explore__item-title">Иссык-Куль</h3>
+            </div>
+            <p class="explore__item-text">Высокогорное озеро с прозрачной водой и горными хребтами на горизонте. Около 3 часов от Бишкека. Летом тёплая вода, пляжи, кристальный воздух.</p>
+          </div>
+
+          <div class="explore__item fade-in">
+            <div class="explore__item-head">
+              <span class="explore__num" aria-hidden="true">02</span>
+              <h3 class="explore__item-title">Долина Чон-Кемин</h3>
+            </div>
+            <p class="explore__item-text">Живописная горная долина рядом с Бишкеком. Юрточные лагери, конные маршруты, нетронутая природа. Идеально для однодневной поездки.</p>
+          </div>
+
+          <div class="explore__item fade-in">
+            <div class="explore__item-head">
+              <span class="explore__num" aria-hidden="true">03</span>
+              <h3 class="explore__item-title">Ущелье Ала-Арча</h3>
+            </div>
+            <p class="explore__item-text">Национальный парк в 40 км от Бишкека. Горные реки, снежные вершины, треккинговые маршруты любой сложности. Вход недорогой, вид — бесценный.</p>
+          </div>
+
+          <div class="explore__item fade-in">
+            <div class="explore__item-head">
+              <span class="explore__num" aria-hidden="true">04</span>
+              <h3 class="explore__item-title">Бишкек</h3>
+            </div>
+            <p class="explore__item-text">Зелёный, спокойный, молодой город. Прогулки по бульварам, уютные кофейни, арт-пространства и неожиданно вкусная еда. Приятно просто гулять.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section class="contacts" id="contacts" aria-label="Контакты">
+      <div class="container">
+        <p class="section-label fade-in">Связь</p>
+        <h2 class="section-title fade-in">Есть вопросы?</h2>
+        <p class="contacts__intro fade-in">Мы будем рады ответить на любые вопросы. Пишите и звоните.</p>
+        <div class="contacts__grid">
+          <div class="contacts__card fade-in">
+            <p class="contacts__name">Вадим</p>
+            <a href="tel:+79001234567" class="contacts__link">+7 900 123-45-67</a>
+            <a href="https://t.me/vadim_example" target="_blank" rel="noopener noreferrer" class="contacts__tg">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.941z"/></svg>
+              Telegram
+            </a>
+          </div>
+          <div class="contacts__card fade-in">
+            <p class="contacts__name">Дарья</p>
+            <a href="tel:+79007654321" class="contacts__link">+7 900 765-43-21</a>
+            <a href="https://t.me/dasha_example" target="_blank" rel="noopener noreferrer" class="contacts__tg">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.941z"/></svg>
+              Telegram
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <p class="footer__names">Вадим &amp; Дарья</p>
+        <p class="footer__date">09 · 08 · 2026</p>
+        <p class="footer__place">Бишкек, Кыргызстан</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
